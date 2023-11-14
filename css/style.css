@@ -1,0 +1,208 @@
+
+/*
+width: 100vw;
+height: 100vh;
+*/
+
+html {
+    font-size: 62.5%;
+    box-sizing:border-box;
+}
+
+*, *::before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor{
+    width: 375px;
+    height: 2046px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.texto-superior {
+    background-color:  rgb(45, 20, 78);
+}
+
+.iconoyh5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconob {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    
+}
+
+.texto-superior h5 {
+    margin-left: 10rem;
+    color: white;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.texto-superior h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+    margin: 0 4.7rem 0 4.rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: white;
+}
+
+.boton1 {
+    background-color: rgb(130, 241, 130);
+    border: none;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(45, 20, 78);
+    margin-left: 14rem;
+    margin-bottom: 5rem;
+}
+
+.img {
+    background-image: url(../starter-code/assets/images/image-hero.webp);
+    width: 70%;
+    height: 155px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto1 {
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto1 h4 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 3rem;
+    border: 0.1rem solid black;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+.texto1 h1 {
+    font-size: 3rem;
+    color: rgb(45, 20, 78);
+}
+.texto1 p {
+    font-size: 2rem;
+    color: rgb(45, 20, 78);
+    text-align: center;
+    margin: 0 0.8rem 0 0.8rem;
+}
+
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto2 h4 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 3rem;
+    border: 0.1rem solid black;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+.texto2 h1 {
+    font-size: 3rem;
+    color: rgb(45, 20, 78);
+}
+.texto2 p {
+    font-size: 2rem;
+    color: rgb(45, 20, 78);
+    text-align: center;
+    margin: 0 0.8rem 0 0.8rem;
+}
+.texto3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto3 h4 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 3rem;
+    border: 0.1rem solid black;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+.texto3 h1 {
+    font-size: 3rem;
+    color: rgb(45, 20, 78);
+}
+.texto3 p {
+    font-size: 2rem;
+    color: rgb(45, 20, 78);
+    text-align: center;
+    margin: 0 0.8rem 0 0.8rem;
+}
+
+.img2 {
+    background-image: url(../starter-code/assets/images/image-founder.webp);
+    width: 70%;
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10rem;
+}
+
+.texto-inferior {
+    width: 344px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(45, 20, 78);
+}
+.texto-inferior h1 {
+    font-size: 3.5rem;
+    color: rgb(45, 20, 78);
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.texto-inferior p {
+    font-size: 2rem;
+    color: rgb(45, 20, 78);
+    text-align: center;
+    margin: 0 0.8rem 0 0.8rem;
+    color: white;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+}
+.boton2 {
+    background-color: rgb(130, 241, 130);
+    border: none;
+    padding: 2rem 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(45, 20, 78);
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
